@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .fa-bitcoin:before {
     content: "\f15a" !important;
 }
@@ -40,6 +41,11 @@ a {
     .head-top {
         .menu-top {
             background-color: #282a35;
+
+            span {
+                font-size: 11px;
+                font-family: 'uni_sans_semiboldregular', Arial, Helvetica, sans-serif;
+            }
 
             ul {
                 display: flex;
@@ -88,7 +94,7 @@ a {
                 }
 
                 .navbar-nav {
-                    margin-top: -12px;
+                    margin-top: -7px;
                     float: right;
                     list-style: none;
                     color: #fff;
@@ -173,7 +179,7 @@ a {
 
                 .top-links {
                     color: #404D60;
-                    padding-top: 7px;
+                    padding-top: 5px;
                     float: left;
                     margin-left: 24px;
                     text-decoration: none;
@@ -191,6 +197,16 @@ a {
         margin-top: -20px;
         padding: 5px 0;
         color: #4E5859;
+
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
 
         .modal-title {
             color: #7b7979;
@@ -646,5 +662,174 @@ a {
         margin-right: auto;
         padding-top: 20px;
         padding-bottom: 0;
+    }
+}
+
+.banner.routle {
+    margin-bottom: 4% !important;
+}
+
+.banner {
+    .warp.routle {
+        padding: 25px 0;
+        width: 1140px;
+    }
+
+    .col-content-routle-2 {
+        width: 100%;
+        display: flex;
+
+        .col-top {
+            margin-right: 20px;
+            margin-top: 10px;
+
+            .col-top--center {
+                position: relative;
+                width: 95/1140*100%;
+            }
+        }
+
+        .col-bottom {
+            width: 1045/1140*100%;
+            margin-top: 10px;
+
+            h2 {
+                color: #16bcc9;
+                margin-bottom: 30px;
+                font-weight: 100;
+                font-size: 30px;
+                margin-top: 10px;
+            }
+
+            p {
+                line-height: 1.5;
+                margin: 0 0 10px;
+                font-size: 14px;
+                color: #333;
+            }
+        }
+    }
+
+    .col-content-routle-3 {
+        width: 100%;
+
+        h2 {
+            color: #16bcc9;
+            margin-bottom: 30px;
+            font-weight: 100;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        p {
+            line-height: 1.5;
+            margin: 0 0 10px;
+            font-size: 14px;
+            color: #333;
+
+            a {
+                color: #337ab7;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .col-content-routle-4 {
+        width: 100%;
+
+        h2 {
+            color: #16bcc9;
+            margin-bottom: 30px;
+            font-weight: 100;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        p {
+            line-height: 1.5;
+            margin: 0 0 10px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        li {
+            ul {
+                display: block;
+                list-style-type: disc;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                padding-inline-start: 40px;
+
+                li {
+                    list-style-type: disc !important;
+                }
+            }
+        }
+    }
+
+    .start-trading {
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        border: 3px solid #15c9e4;
+        padding: 12px 40px;
+        margin: 15px 10px;
+        font-size: 24px;
+        color: #15c9e4;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: 0.15s;
+    }
+
+
+
+    .title-routle {
+        width: 100%;
+        border-bottom: 1px solid #eee;
+
+        h1 {
+            font-weight: 300;
+            margin-bottom: 20px;
+            font-size: 36px;
+            color: inherit;
+            color: #333;
+            margin-top: 20px;
+        }
+    }
+
+    .content-routle {
+        line-height: 1.5;
+        margin: 0 0 10px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+    }
+
+    .col-content-routle {
+        width: 380/1140*100%;
+        margin: auto;
+        height: 237px;
+
+        li {
+            h3 {
+                font-weight: 100;
+                margin-bottom: 30px;
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+                width: 87%;
+
+                a {
+                    color: #337ab7;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }
