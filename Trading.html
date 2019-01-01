@@ -128,12 +128,12 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <div class="form-group" style="margin: 20px;">
+                            <div class="form-group">
                                 <label for="sel1" style="color:  #657382;text-align:  left;font-size: 16px;font-weight: 400;float:  left;">Currency:</label>
                                 <div class="single-bundle-currency-dropdown">
                                     <button id="bundle-symbol1-current-dropdowsns" onclick="clickOpen()" class="bundle-symbol-dropdown-btn"
-                                        style="padding: 4px 9px 4px 15px;margin-bottom: 10px;"><img src="common/images/btc.png"
-                                            style="width: 25px;margin-right:  10px;">Bitcoin
+                                        style="padding: 4px 9px 4px 15px;margin-bottom: 10px; font-weight: bold"><img
+                                            src="common/images/btc.png" style="width: 25px;margin-right:  10px;">Bitcoin
                                         (BTC)</button>
                                     <ul id="bundle-entry-symbol1-placeholderss" class="symbol1-list" style="text-align: left;">
                                         <li class="symbol1-list-item active listing_val_o_g" style="border-bottom: 1px solid #e0e0e0;"
@@ -151,7 +151,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="form-group" style="margin: 20px;">
+                            <div class="form-group">
                                 <label for="sel1" style="color:  #657382;text-align:  left;font-size: 16px;font-weight: 400;float:  left;">Amount:</label>
                                 <input name="amount" id="amount_d" type="text" placeholder="" class="form-control"
                                     required="">
@@ -175,14 +175,14 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <div class="form-group" style="margin: 20px;">
+                            <div class="form-group">
                                 <label for="sel1" style="color:  #657382;text-align:  left;font-size: 16px;font-weight: 400;float:  left;">Currency:</label>
                                 <div class="single-bundle-currency-dropdown">
-                                    <button id="bundle-symbol1-current-dropdowsns" onclick="clickOpen()" class="bundle-symbol-dropdown-btn"
+                                    <button id="bundle-symbol1-current-dropdowsns" onclick="clickOpenCurrency()" class="bundle-symbol-dropdown-btn"
                                         style="padding: 4px 9px 4px 15px;margin-bottom: 10px;"><img src="common/images/btc.png"
                                             style="width: 25px;margin-right:  10px;">Bitcoin
                                         (BTC)</button>
-                                    <ul id="bundle-entry-symbol1-placeholderss" class="symbol1-list" style="text-align: left;">
+                                    <ul id="bundle-entry-symbol1-placeholderss-WITHDRAW" class="symbol1-list" style="text-align: left;">
                                         <li class="symbol1-list-item active listing_val_o_g" style="border-bottom: 1px solid #e0e0e0;"
                                             data-valling="BTC" data-val="Bitcoin (BTC)" data-img="/img/btc.png"><img
                                                 src="common/images/btc.png" style="width: 25px;margin-right:  10px;"
@@ -198,7 +198,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="form-group" style="margin: 20px;">
+                            <div class="form-group">
                                 <label for="sel1" style="color:  #657382;text-align:  left;font-size: 16px;font-weight: 400;float:  left;">Amount:</label>
                                 <input name="amount" id="amount_d" type="text" placeholder="" class="form-control"
                                     required="">
@@ -222,14 +222,14 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <div class="form-group" style="margin: 20px;">
+                            <div class="form-group">
                                 <label for="sel1" style="color:  #657382;text-align:  left;font-size: 16px;font-weight: 400;float:  left;">Currency:</label>
                                 <div class="single-bundle-currency-dropdown">
-                                    <button id="bundle-symbol1-current-dropdowsns" onclick="clickOpen()" class="bundle-symbol-dropdown-btn"
+                                    <button id="bundle-symbol1-current-dropdowsns" onclick="clickOpenTRANSFER()" class="bundle-symbol-dropdown-btn"
                                         style="padding: 4px 9px 4px 15px;margin-bottom: 10px;"><img src="common/images/btc.png"
                                             style="width: 25px;margin-right:  10px;">Bitcoin
                                         (BTC)</button>
-                                    <ul id="bundle-entry-symbol1-placeholderss" class="symbol1-list" style="text-align: left;">
+                                    <ul id="bundle-entry-symbol1-placeholderss-TRANSFER" class="symbol1-list" style="text-align: left;">
                                         <li class="symbol1-list-item active listing_val_o_g" style="border-bottom: 1px solid #e0e0e0;"
                                             data-valling="BTC" data-val="Bitcoin (BTC)" data-img="/img/btc.png"><img
                                                 src="common/images/btc.png" style="width: 25px;margin-right:  10px;"
@@ -245,12 +245,12 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="form-group" style="margin: 20px;">
+                            <div class="form-group">
                                 <label for="sel1" style="color:  #657382;text-align:  left;font-size: 16px;font-weight: 400;float:  left;">Amount:</label>
                                 <input name="amount" id="amount_d" type="text" placeholder="" class="form-control"
                                     required="">
                             </div>
-                            <div class="form-group" style="margin: 20px;">
+                            <div class="form-group">
                                 <label for="sel1" style="color:  #657382;text-align:  left;font-size: 16px;font-weight: 400;float:  left;">Address:</label>
                                 <input name="amount" id="email_t" type="email" placeholder="" class="form-control"
                                     required="">
@@ -270,113 +270,117 @@
     </header>
 
 
-    <section class="banner">
+    <section class="banner routle">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 name-user" style="">
-                    duongcv1006@gmail.com
-                </div>
-
-                <div class="receive col-lg-6">
-                    <h3 class="sel1" style="">Request
-                        a transfer:</h3>
-                    <div class="single-bundle-currency-dropdown">
-                        <button id="bundle-symbol1-current-dropdowsns" onclick="clickOpenRequest()" class="bundle-symbol-dropdown-btn"
-                            style="padding: 4px 9px 4px 15px;margin-bottom: 10px;"><img src="common/images/btc.png"
-                                style="width: 25px;margin-right:  10px;">Bitcoin
-                            (BTC)</button>
-                        <ul id="bundle-entry-symbol1-placeholderss-Request" class="symbol1-list" style="text-align: left;">
-                            <li class="symbol1-list-item active listing_val_o_g" style="border-bottom: 1px solid #e0e0e0;"
-                                data-valling="BTC" data-val="Bitcoin (BTC)" data-img="/img/btc.png"><img src="common/images/btc.png"
-                                    style="width: 25px;margin-right:  10px;" alt="Bitcoin">Bitcoin (BTC)</li>
-                            <li class="symbol1-list-item active listing_val_o_g" style="border-bottom: 1px solid #e0e0e0;"
-                                data-valling="ETH" data-val="Ethereum (ETH)" data-img="/img/eth.png"><img src="common/images/eth.png"
-                                    style="width: 25px;margin-right:  10px;" alt="Ethereum">Ethereum (ETH)</li>
-                            <li class="symbol1-list-item active listing_val_o_g" data-val="Bitcoin cash (BCH)"
-                                data-valling="BCH" data-img="/img/bch.png"><img src="common/images/bch.png" style="width: 25px;margin-right:  10px;"
-                                    alt="Bitcoin cash">Bitcoin cash (BCH)</li>
-                        </ul>
+                <div class="warp routle">
+                    <div class="title-routle">
+                        <h1>Bitcoin Trading</h1>
                     </div>
-                    <button class="btn btn-green" name="button" id="go_get_my_address">Get</button>
                 </div>
-                <div class="promo_ac col-lg-6">
-                    <h3 style="font-family: Open sans, sans-serif;">Activate promocode:</h3>
-                    <input type="text" class="form-control" id="inp_activate_promo" style="font-size: 15px;margin-bottom:  10px;">
-                    <button class="btn btn-green" name="button" style="float:  left;" id="go_to_activate_btn">Activate</button>
-                    <br>
+                <div class="content-routle">
+                    <p>Dexma is a trusted platform for trading Bitcoins. The exchange provides fast order
+                        execution, low spread, and access to high liquidity orderbook for top currency pairs on the
+                        market. Cross-platform trading is realised via website, mobile app, and several API
+                        solutions. Safety of assets and data are backed by high security standards and advanced
+                        legal compliance. </p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="display: inline-block;">
-                    <h3 style="font-family: Open sans, sans-serif;">Change avatar:</h3>
-                    <br>
-                    <form id="form_os-wsa_p" method="post" action="/file_plus" enctype="multipart/form-data">
-                        <input type="file" name="image" style="margin-bottom: 22px; width: 100%;">
-                        <button class="btn btn-green" type="submit" name="button" style="float:  left;" id="go_to_change_avatar_btn">Save</button>
-                    </form>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="display: inline-block;">
-                    <h3 style="font-family: Open sans, sans-serif;">Change nickname:</h3>
-                    <br>
-                    <input value="" type="text" class="form-control" id="inp_change_nick" style="font-size: 15px;margin-bottom:  10px;">
-                    <button class="btn btn-green" type="text" name="button" style="float:  left;" id="go_to_change_nick_btn">Save</button>
+                <div>
+                    <p>To start trading on Dexma, follow the steps:</p>
                 </div>
             </div>
-            <div class="row" style="padding:0;">
-                <div class="col-lg-6">
-                    <h3 style="font-family: Open sans, sans-serif;">Your addresses</h3>
-                    <div style="display: -webkit-box;">
-                        <input type="text" class="form-control" style="font-size: 15px;margin-bottom:  10px;width: 100%;"
-                            value="" placeholder="Bitcoin (BTC)" id="inp_save_a_btc">
-                    </div>
-                    <div style="display: -webkit-box;">
-                        <input type="text" class="form-control" style="font-size: 15px;margin-bottom:  10px;width: 100%;"
-                            value="" placeholder="Ethereum (ETH)" id="inp_save_a_eth">
-                    </div>
-                    <div style="display: -webkit-box;">
-                        <input type="text" class="form-control" placeholder="Bitcoin cash (BCH)" style="font-size: 15px;margin-bottom:  10px;width: 100%;"
-                            value="" id="inp_save_a_bch">
-                    </div>
-                    <button class="btn btn-green" name="button" style="float:  left;" id="go_to_save_a_btn">Save</button><br>
-                </div>
-                <div class="col-lg-6 col-xs-12">
-                    <h3 style="font-family: Open sans, sans-serif;">Change password</h3>
-                    <div style="margin-left:-15px;">
-                        <div>
-                            <div class="col-lg-5 col-md-3 col-sm-4 col-xs-12">
-                                <label style="margin-right: 17px;font-size: 19px;font-weight: 400;padding-top: 3px;font-family: Open sans, sans-serif;">Current
-                                    password</label>
-                            </div>
-                            <div class="col-lg-7 col-md-9 col-sm-8 col-xs-12">
-                                <input type="password" class="form-control" placeholder="Your current password" style="font-size: 15px;margin-bottom:  10px;width:103.3%;"
-                                    id="inp_c_pass">
-                            </div>
+            <div class="row ">
+                <ul class="col-content-routle">
+                    <li>
+                        <div class="img-routle">
+                            <img src="common/images/register.png" alt="">
                         </div>
-                        <div>
-                            <div class="col-lg-5 col-md-3 col-sm-4 col-xs-12">
-                                <label style="margin-right: 42px;font-size: 19px;font-weight: 400;font-family: Open sans, sans-serif;padding-top: 3px;">New
-                                    password</label>
-                            </div>
-                            <div class="col-lg-7 col-md-9 col-sm-8 col-xs-12">
-                                <input type="password" class="form-control" placeholder="New password" style="font-size: 15px;margin-bottom:  10px;width:103.3%;"
-                                    id="inp_n_pass">
-                            </div>
+                    </li>
+                    <li>
+                        <h3> Sign up with Dexma</h3>
+                    </li>
+                    <li>
+                        <p>It will take you only a few steps to <a href="/#register">register</a> and get an account on
+                            Dexma Bitcoin exchange.</p>
+                    </li>
+                </ul>
+                <ul class="col-content-routle">
+                    <li>
+                        <div class="img-routle">
+                            <img src="common/images/deposit2.png" alt="">
                         </div>
-                        <div>
-                            <div class="col-lg-5 col-md-3 col-sm-4 col-xs-12">
-                                <label style="margin-right: 19px;font-size: 19px;font-weight: 400;font-family: Open sans, sans-serif;padding-top: 3px;">Repeat
-                                    password</label>
-                            </div>
-                            <div class="col-lg-7 col-md-9 col-sm-8 col-xs-12">
-                                <input type="password" class="form-control" placeholder="Repeat password" style="font-size: 15px;margin-bottom:  10px;width:103.3%;"
-                                    id="inp_n_r_pass">
-                            </div>
+                    </li>
+                    <li>
+                        <h3>Deposit funds</h3>
+                    </li>
+                    <li>
+                        <p><a href="/#register">Fund account</a> to buy bitcoins using electronic wallets, buy bitcoins
+                            translation from Blockchain and all kinds of exchanges.</p>
+                    </li>
+                </ul>
+                <ul class="col-content-routle">
+                    <li>
+                        <div class="img-routle">
+                            <img src="common/images/trade.png" alt="">
                         </div>
-                        <button class="btn btn-green" id="go_to_change_pass" name="button" style="float:  left;margin-left:  15px;">Change
-                            password</button>
-                    </div><br><br>
-                </div>
-                <div class="col-lg-12" style="display: -webkit-inline-box;padding:  20px 15px;margin-bottom: -30px;">
-                    <p style="font-family: Open sans, sans-serif;padding-right:  10px;font-size: 22px;font-weight: 400;">2FA</p>
-                    <i class="fa fa-toggle-off" id="go_to_change_fa" gt="" style="font-size: 22px;cursor: pointer;padding-top:  6px;"></i>
+                    </li>
+                    <li>
+                        <h3>Start trading</h3>
+                    </li>
+                    <li>
+                        <p><a href="/#sign-in">Trade Bitcoin</a> via our application, mobile app or using automated
+                            trading solutions.</p>
+                    </li>
+                </ul>
+                <ul class="col-content-routle-2">
+                    <li class="col-top">
+                        <div class="col-top--center">
+                            <img src="common/images/fee2.svg" alt="">
+                        </div>
+                    </li>
+                    <li class="col-bottom">
+                        <div>
+                            <h2>Commission</h2>
+                            <p>Dexma exchange charges variable commissions of 0% to 0.2%, depending on the trading
+                                pair. Special conditions are discussable for high-volume traders. Volume-based trade
+                                fees are coming soon.</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="col-content-routle-3">
+                    <li>
+                        <img src="/img/api.svg" style="float: left; margin-right: 20px; margin-bottom: 30px; margin-top: 10px;"
+                            alt="">
+                        <h2>Dexma API</h2>
+                    </li>
+                    <li>
+                        <p>Dexma provides several API solutions for automated trading based on needs of individuals and
+                            institutions. REST API is a basic tool for quick access to Dexma market data and automated
+                            trade management. WebSocket API with full trading functionality is mainly used by
+                            professional traders. Finally, <a href="/fix-api">FIX API</a> is the best solution for
+                            institutional traders to connect trading systems to a source of Bitcoin liquidity.</p>
+                    </li>
+                </ul>
+                <ul class="col-content-routle-4">
+                    <li>
+                        <h2>Key Advantages</h2>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>safe cryptocurrency cold storage and financial viability</li>
+                            <li>high liquidity orderbook and low spread</li>
+                            <li>advanced order-matching algorithms</li>
+                            <li>cross-platform trading via website, mobile app and API</li>
+                            <li>easy deposits and guaranteed withdrawals</li>
+                            <li>advanced and transparent reporting</li>
+                            <li>professional 24/7 support team</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-12 m-auto text-center">
+                    <a class="start-trading" href="#">Start Trading</a>
                 </div>
             </div>
         </div>
