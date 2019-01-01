@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none
+}
+
+.head {
+    width: 100%;
+    margin: 0
+}
+
+.head .head-top .menu-top {
+    background-color: #282a35
+}
+
+.head .head-top .menu-top ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.head .head-top .menu-top ul li {
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'uni_sans_lightregular', Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 1px solid #32343e;
+    border-right: 1px solid #32343e;
+    margin-right: -5px
+}
+
+.head .head-top .menu-top ul li a {
+    color: #babbbe;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    border-bottom: 4px solid transparent
+}
+
+.head .head-center .warp {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+    height: 65px;
+    position: relative;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.head .head-center .warp .sub-nav:before {
+    display: table;
+    content: " "
+}
+
+.head .head-center .warp .sub-nav .navbar-nav {
+    margin-top: -12px;
+    float: right;
+    list-style: none;
+    color: #fff;
+    -webkit-box-orient: inherit !important;
+    -webkit-box-direction: inherit !important;
+    -ms-flex-direction: inherit !important;
+    flex-direction: inherit !important
+}
+
+.head .head-center .warp .sub-nav .navbar-nav .sign-up-link {
+    background: #00bdca;
+    padding: 7px 12px;
+    border-radius: 3px;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    border: 1px solid #00bdca
+}
+
+.head .head-center .warp .sub-nav .navbar-nav .sign-up-link:hover {
+    color: #fff;
+    background: #0198A3
+}
+
+.head .head-center .warp .sub-nav .navbar-nav .sign-up-link a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none
+}
+
+.head .head-center .warp .sub-nav .navbar-nav .link-hide {
+    background: #00BCC9;
+    margin-left: -12px;
+    border-radius: 0 3px 3px 0;
+    position: relative;
+    padding-left: 7px !important;
+    padding: 11px 10px 9px 8px;
+    -webkit-transition: all .2s ease;
+    color: #fff
+}
+
+.head .head-center .warp .sub-nav .navbar-nav .link-hide:hover {
+    background: #0198A3
+}
+
+.head .head-center .warp .sub-nav .navbar-nav:before {
+    display: table;
+    content: " "
+}
+
+.head .head-center .warp .sub-nav .navbar-nav li {
+    width: auto;
+    padding-left: 9px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    color: #232a34;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    min-width: 110px;
+    text-align: right
+}
+
+.head .head-center .warp .links-block {
+    position: absolute
+}
+
+.head .head-center .warp .links-block .cex-logo {
+    width: 35px;
+    height: 35px;
+    background: url(/common/images/logo.svg) no-repeat;
+    margin-left: 16px;
+    display: block;
+    float: left
+}
+
+.head .head-center .warp .links-block .top-links {
+    color: #404D60;
+    padding-top: 7px;
+    float: left;
+    margin-left: 24px;
+    text-decoration: none
+}
+
+.head .head-center .warp .links-block .top-links:hover {
+    color: #00BCC9
+}
+
+.head .head-bottom {
+    background: #EFF2F4;
+    margin-top: -20px;
+    padding: 5px 0
+}
+
+.head .head-bottom .exchange {
+    float: left;
+    margin-top: 10px;
+    font-size: 11px;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.head .head-bottom .exchange .icn-BCH:before {
+    content: "\e903"
+}
+
+.head .head-bottom .exchange .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+.head .head-bottom .exchange .btn-green {
+    background: #71C266;
+    color: #fff;
+    font-family: Open sans, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s
+}
+
+.head .head-bottom .exchange .exchange__list {
+    display: inline-block;
+    padding: 0;
+    margin-right: 20px;
+    color: #4E5859;
+    font-size: 15px
+}
+
+.head .head-bottom .exchange .exchange__list span.color-curr {
+    margin-right: 3px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    display: none
+}
